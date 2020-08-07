@@ -46,7 +46,6 @@
               <v-text-field v-model="details" type="text" label="detail"></v-text-field>
               <v-text-field v-model="start" type="date" label="start (required)"></v-text-field>
               <v-text-field v-model="end" type="date" label="end (required)"></v-text-field>
-              <v-text-field v-model="color" type="color" label="color (click to open color menu)"></v-text-field>
               <v-btn
                 type="submit"
                 color="primary"
@@ -66,7 +65,6 @@
               <v-text-field v-model="details" type="text" label="detail"></v-text-field>
               <v-text-field v-model="start" type="date" label="start (required)"></v-text-field>
               <v-text-field v-model="end" type="date" label="end (required)"></v-text-field>
-              <v-text-field v-model="color" type="color" label="color (click to open color menu)"></v-text-field>
               <v-btn
                 type="submit"
                 color="primary"
@@ -238,7 +236,7 @@ export default {
           details: this.details,
           start: this.start,
           end: this.end,
-          color: this.color,
+          color: '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0'),
         });
         this.getEvents();
         (this.name = ""),
