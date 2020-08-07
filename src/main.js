@@ -1,12 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
-import vuetify from './plugins/vuetify';
+import Vue from "vue";
+import App from "./App.vue";
+import vuetify from "./plugins/vuetify";
 import firebase from "firebase";
-import VueTextareaAutosize from 'vue-textarea-autosize'
+import VueTextareaAutosize from "vue-textarea-autosize";
 
-Vue.use(VueTextareaAutosize)
+Vue.use(VueTextareaAutosize);
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 firebase.initializeApp({
   apiKey: "",
@@ -15,12 +15,12 @@ firebase.initializeApp({
   projectId: "",
   storageBucket: "",
   messagingSenderId: "",
-  appId: ""
+  appId: "",
 });
 
 export const db = firebase.firestore();
 
 new Vue({
   vuetify,
-  render: h => h(App)
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");

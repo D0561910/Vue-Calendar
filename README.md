@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Vue Project Deploy to Firebase 
+See [Tutorial](https://softauthor.com/deploy-vue-js-app-on-firebase-hosting/)
+
+### Project Demo
+[Link](https://vuecalender-7ae58.web.app/)
