@@ -28,3 +28,8 @@ See [Tutorial](https://softauthor.com/deploy-vue-js-app-on-firebase-hosting/)
 
 ### Project Demo
 [Link](https://vuecalender-7ae58.web.app/)
+
+### Other Information 
+Deploy on Firebase Hosting
+Project Name: Vue Calender
+Database is using Cloud Firestore
